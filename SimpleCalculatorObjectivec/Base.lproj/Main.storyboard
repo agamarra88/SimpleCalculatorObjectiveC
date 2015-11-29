@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="SME-vz-SO2">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tKc-qK-bKD">
+            <objects>
+                <viewController id="SME-vz-SO2" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="q3I-EC-dXk"/>
+                        <viewControllerLayoutGuide type="bottom" id="sir-kB-iZu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vaV-6a-y9N">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HBX-x3-ojE">
+                                <rect key="frame" x="20" y="28" width="560" height="35"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="MTq-Co-xkg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cX7-l9-obk">
+                                <rect key="frame" x="20" y="71" width="60" height="60"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.49019607900000001" green="0.72941178080000002" blue="0.1019607857" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="7"/>
+                                <connections>
+                                    <action selector="numberButtonTouched:" destination="SME-vz-SO2" eventType="touchUpInside" id="pTB-hD-yuh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ra4-Ad-0e8">
+                                <rect key="frame" x="88" y="71" width="60" height="60"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.49019607900000001" green="0.72941178080000002" blue="0.1019607857" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="8"/>
+                                <connections>
+                                    <action selector="numberButtonTouched:" destination="SME-vz-SO2" eventType="touchUpInside" id="sSl-a1-Gbm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5hM-Le-qDC">
+                                <rect key="frame" x="156" y="71" width="60" height="60"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.49019607900000001" green="0.72941178080000002" blue="0.1019607857" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="9"/>
+                                <connections>
+                                    <action selector="numberButtonTouched:" destination="SME-vz-SO2" eventType="touchUpInside" id="mAJ-tB-zuU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpv-nb-zoR">
+                                <rect key="frame" x="20" y="139" width="60" height="60"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.49019607900000001" green="0.72941178080000002" blue="0.1019607857" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="4"/>
+                                <connections>
+                                    <action selector="numberButtonTouched:" destination="SME-vz-SO2" eventType="touchUpInside" id="B3J-bh-xjD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bs0-b6-a3X">
+                                <rect key="frame" x="88" y="139" width="60" height="60"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.49019607900000001" green="0.72941178080000002" blue="0.1019607857" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="5"/>
+                                <connections>
+                                    <action selector="numberButtonTouched:" destination="SME-vz-SO2" eventType="touchUpInside" id="1ZD-A7-nld"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cmT-Cc-ti7">
+                                <rect key="frame" x="156" y="139" width="60" height="60"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.49019607900000001" green="0.72941178080000002" blue="0.1019607857" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="6"/>
+                                <connections>
+                                    <action selector="numberButtonTouched:" destination="SME-vz-SO2" eventType="touchUpInside" id="wr5-gX-UJw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ri-gn-DZp">
+                                <rect key="frame" x="20" y="207" width="60" height="60"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.49019607900000001" green="0.72941178080000002" blue="0.1019607857" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="1"/>
+                                <connections>
+                                    <action selector="numberButtonTouched:" destination="SME-vz-SO2" eventType="touchUpInside" id="yuh-5k-1JO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xrj-Lp-Ow6">
+                                <rect key="frame" x="88" y="207" width="60" height="60"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.49019607900000001" green="0.72941178080000002" blue="0.1019607857" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="2"/>
+                                <connections>
+                                    <action selector="numberButtonTouched:" destination="SME-vz-SO2" eventType="touchUpInside" id="1aW-jj-iSW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d3N-Y3-rMC">
+                                <rect key="frame" x="156" y="207" width="60" height="60"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.49019607900000001" green="0.72941178080000002" blue="0.1019607857" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="3"/>
+                                <connections>
+                                    <action selector="numberButtonTouched:" destination="SME-vz-SO2" eventType="touchUpInside" id="Z8B-36-FPj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t5T-sR-llF">
+                                <rect key="frame" x="20" y="275" width="60" height="60"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.49019607900000001" green="0.72941178080000002" blue="0.1019607857" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="."/>
+                                <connections>
+                                    <action selector="numberButtonTouched:" destination="SME-vz-SO2" eventType="touchUpInside" id="gB9-3V-72e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p2r-QX-BI3">
+                                <rect key="frame" x="88" y="275" width="60" height="60"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.49019607900000001" green="0.72941178080000002" blue="0.1019607857" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="0"/>
+                                <connections>
+                                    <action selector="numberButtonTouched:" destination="SME-vz-SO2" eventType="touchUpInside" id="7sf-qM-cz8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ptw-2N-VCs">
+                                <rect key="frame" x="156" y="275" width="60" height="60"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.49019607900000001" green="0.72941178080000002" blue="0.1019607857" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" backgroundImage="backArrow"/>
+                                <connections>
+                                    <action selector="deleteButtonTouched:" destination="SME-vz-SO2" eventType="touchUpInside" id="BwR-fm-lfs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HBX-x3-ojE" firstAttribute="top" secondItem="q3I-EC-dXk" secondAttribute="bottom" constant="8" id="FuJ-Z7-d9v"/>
+                            <constraint firstItem="HBX-x3-ojE" firstAttribute="leading" secondItem="vaV-6a-y9N" secondAttribute="leading" constant="20" id="bGg-jy-Sd5"/>
+                            <constraint firstAttribute="trailing" secondItem="HBX-x3-ojE" secondAttribute="trailing" constant="20" id="iHK-9W-tQX"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="displayLabel" destination="HBX-x3-ojE" id="v7r-BT-90q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ubG-Jc-QNA" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="backArrow" width="60" height="60"/>
+    </resources>
+</document>
