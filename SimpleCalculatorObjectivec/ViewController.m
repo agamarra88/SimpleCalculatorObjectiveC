@@ -16,6 +16,8 @@
 
 @implementation ViewController
 
+#pragma mark - Actions
+
 - (IBAction)numberButtonTouched:(UIButton *)sender {
     NSString *digit = sender.currentTitle;
     if (self.isUserTiping) {
